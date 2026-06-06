@@ -1,7 +1,7 @@
 {
   "name": "surekha-portfolio",
   "version": "0.1.0",
-  "homepage": "https://surekha2351.github.io",
+  "homepage": "https://surekha2351.github.io/PortfolioSurekha/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
@@ -27,12 +27,14 @@
     "typewriter-effect": "^2.22.0",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
