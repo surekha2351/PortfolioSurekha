@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PortfolioSurekha/static/css/main.ab45d309.css",
+    "main.js": "/PortfolioSurekha/static/js/main.de9cf651.js",
+    "index.html": "/PortfolioSurekha/index.html",
+    "main.ab45d309.css.map": "/PortfolioSurekha/static/css/main.ab45d309.css.map",
+    "main.de9cf651.js.map": "/PortfolioSurekha/static/js/main.de9cf651.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab45d309.css",
+    "static/js/main.de9cf651.js"
+  ]
+}
